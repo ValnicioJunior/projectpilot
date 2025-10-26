@@ -1,0 +1,83 @@
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 250px;
+  width: calc(100% - 250px);
+  height: 80px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  z-index: 999;
+}
+
+/* Container do input */
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-container input {
+  padding: 8px 12px 8px 35px; /* espaço para o ícone */
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  background-color: #F5F6FA;
+  width: 400px;
+  border: solid 0.1px #d4d2d2;
+}
+
+/* Ícone de lupa dentro do input */
+.search-icon {
+  position: absolute;
+  left: 10px;
+  color: #777;
+}
+
+/* Container do perfil */
+.perfil-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Imagem redonda */
+.perfil {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: solid 0.1px #d4d2d2;
+}
+
+/* Textos ao lado da imagem */
+.perfil-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.perfil-info p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Círculo com as iniciais do usuário */
+.perfil-iniciais {
+  width: 40px;
+  height: 40px;
+  background-color: #129e19;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: solid 0.1px #d4d2d2;
+}

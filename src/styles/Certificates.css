@@ -1,0 +1,97 @@
+.certificados {
+    padding: 40px 80px;
+    font-family: 'Poppins', sans serif;
+}
+
+.certificados h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0px 0px 40px 0px;
+    padding: 0 40px;
+}
+
+.bloco-certificados,
+.bloco-gerar {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 40px 80px;
+    margin: 0 auto 40px auto;
+    max-width: 1100px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.bloco-certificados h2,
+.bloco-gerar h2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #222;
+    margin-bottom: 32px;
+}
+
+.cert-item,
+.gerar-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 8px;
+    padding: 12px 16px;
+    border: 1px solid #eee;
+}
+
+.cert-item p {
+    font-size: 14px;
+    color:#666;
+    margin: 0;
+    flex: 1;
+}
+
+.certificados .btn-download,
+.btn-gerar {
+    background-color: #29a632;
+    color: #fff;
+    border: none;
+    padding: 6px 14px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.certificados .btn-download:hover,
+.btn-gerar:hover {
+    background-color: #218838;
+}
+
+.gerar-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.select-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 300px;
+    margin-bottom: 22px;
+}
+
+.select-group label {
+    font-size: 13px;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 6px;
+}
+
+.select-group input {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    color: #666;
+}

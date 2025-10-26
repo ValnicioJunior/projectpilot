@@ -1,0 +1,68 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+ 
+ .card-landing {
+   width: 400px;
+   height: 350px;
+   border-radius: 16px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+   overflow: hidden;
+   background-color: white;
+   transition: 0.3s;
+   cursor: pointer;
+ }
+
+ .card-landing img {
+   width: 100%;
+ }
+
+.h2-card {
+   font-size: 1.2rem;
+   margin: 0 0 10px;
+   font-family: "Open Sans", sans-serif;
+ }
+
+ .card-landing p {
+   font-size: 0.95rem;
+   color: #555;
+   margin: 0;
+ }
+
+ .play-button {
+   position: relative;
+   left: 300px;
+   bottom: 130px;
+   background-color: #52C93F;
+   border: none;
+   border-radius: 50%;
+   width: 62px;
+   height: 62px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+ }
+
+ .play-button::before {
+   content: '';
+   display: block;
+   width: 0;
+   height: 0;
+   border-left: 19px solid white;
+   border-top: 10px solid transparent;
+   border-bottom: 10px solid transparent;
+ }
+
+ .card-content{
+  padding: 20px;
+ }
+
+ .card-img {
+  background-size: cover;
+  background-position: center;
+  height: 220px;
+}
+
+ .card-landing:hover{
+  scale: 1.02;
+  cursor: pointer;
+ }

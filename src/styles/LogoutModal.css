@@ -1,0 +1,81 @@
+.logout-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.logout-modal-content {
+    background-color: #FFFFFF; 
+    color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 350px;
+    width: 90%;
+    position: relative;
+}
+
+.logout-modal-content p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    color: black;
+}
+
+.logout-button, .cancel-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}
+
+.cancel-button {
+    background-color: #6c757d;
+    color: white;
+}
+
+.cancel-button:hover {
+    background-color: #5a6268;
+}
+
+.certificates-button {
+    background-color: #30BA39; /* Cor verde para certificados */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Espaçamento acima do botão */
+}
+
+.certificates-button:hover {
+    background-color: #279e30; /* Um pouco mais escuro no hover */
+}
+
+/* Opcional: Para controlar a ordem dos botões */
+.logout-modal-content button {
+    margin-bottom: 10px; /* Adiciona um pequeno espaçamento entre os botões */
+}

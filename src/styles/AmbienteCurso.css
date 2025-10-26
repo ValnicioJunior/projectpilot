@@ -1,0 +1,154 @@
+body {
+  overflow-y: auto;
+}
+
+.container-video {
+    width: 100vw;
+    min-height: 100vh;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.video {
+    width: 75%;
+    padding: 10px;
+}
+
+.botoes-aba {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tela{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}  
+.conteudos {
+    color: #999999;
+    background-color: white;
+    padding: 10px 40px;
+    border:#D5D5D5 1px solid;
+    border-radius: 5px;
+    margin: 15px 0 15px 0;
+    cursor: pointer;
+    
+}
+.conteudos:hover {
+    cursor: pointer;
+    background-color:#999999;
+    color: white;
+}
+.conteudos.ativo {
+    background-color: #30BA39;
+    color: white;
+    border: 1px solid #30BA39;
+}
+.area-comentario, .area-materiais, .area-tarefas {
+    border: 1px solid #D5D5D5;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 10px;
+}
+.area-materiais ul {
+    list-style: none;
+    padding: 0;
+}
+.area-materiais li {
+    margin: 10px 0;
+}
+
+.area-tarefas ol {
+    padding-left: 20px;
+}
+
+.area-comentario {
+    border:#D5D5D5 1px solid;
+    border-radius: 5px;
+}
+textarea {
+    width: 100%;
+    height: auto;
+    border: none;
+    padding: 10px;
+         
+}
+.botoes {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  padding: 10px;
+}
+
+.botoes button {
+  padding: 8px 40px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#btnComentar {
+  background-color: #30BA39;
+  color: white;
+}
+
+#btnCancelar {
+  background-color: #D5D5D5;
+}
+#btnComentar:hover{
+  background-color: #009C48;
+} 
+#btnCancelar:hover { 
+  background-color: #999999;
+  
+}
+.listaComentario {
+    display: flex;
+    flex-direction: column;
+}
+
+.modulos {
+   width: 25%;
+   height: auto;
+   border:#D5D5D5 1px solid;
+   border-radius: 5px;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   gap:15px;
+   margin:15px;
+   
+}
+.modulos p {
+    word-wrap: break-word;
+}
+#voltar {
+    border: #30BA39 solid 2px;
+    border-radius: 3px;
+    color:#30BA39;
+    background-color: white;
+    padding: 5px;
+    width: 70px;
+    cursor: pointer;
+}
+#voltar:hover {
+    background-color: #009C48;
+    color: white;
+}
+.modulo {
+  border: 1px solid #D5D5D5;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modulo:hover {
+  background-color: #eee;
+}
+
+.modulo.ativo {
+  background-color: #30BA39;
+  color: white;
+}

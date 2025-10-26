@@ -1,0 +1,16 @@
+.page-wrapper {
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header-upload {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .header-upload {
+    text-align: center;
+    display: block;
+  }
+}

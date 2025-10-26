@@ -1,0 +1,139 @@
+.form-container h1 {
+    font-weight: 600;
+}
+
+.logo-voce {
+    width: 260px;
+    margin-bottom: 53px;
+}
+
+.logo-nutec{
+    width: 197px;
+}
+
+.logo-gov{
+    width: 191px;
+}
+
+.logos-bottom{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    margin-top: 42px;
+}
+
+.links-form-section {
+    color: #29A632;
+    font-weight: 600;
+}
+
+.ou-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: #666;
+    font-weight: 500;
+}
+
+.ou-form::after,
+.ou-form::before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+.login-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.form-container {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image-container {
+    width: 50vw;
+    height: 100vh;
+    background-image: url("../assets/img/background-login.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50px 0 0 50px;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.glass-container{
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 20px 80px;
+    width: 500px;
+    margin-bottom: 50px;
+}
+
+.glass-container h1 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.formulario {
+    width: 70%;
+}
+
+label {
+    color: #9794AA;
+    font-size: 16px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    border-radius: 8px;
+    height: 45px;
+    width: 100%;
+    border: 1px solid #CBCAD7;
+    margin: 10px 0;
+    padding: 0 15px;
+}
+
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+    color: #686677;
+    font-weight: 500;
+}
+
+.login-submit {
+    background-color: #29A632;
+    color: white;
+    border-radius: 8px;
+    height: 45px;
+    width: 100%;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    /* margin-top: 15px;     */
+}
+
+.form-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}

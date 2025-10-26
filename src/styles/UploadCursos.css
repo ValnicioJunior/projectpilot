@@ -1,0 +1,138 @@
+.content-btn {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  max-width: 1000px;
+  margin-bottom: 10px;
+}
+
+.btn-upload {
+  color: white;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  background-color: #28A638;
+  transition: background-color 0.2s ease;
+}
+
+.btn-upload:hover {
+  background-color: #62e473;
+  color: white;
+}
+
+.btn-upload p {
+  margin: 0;
+}
+
+.btn-upload1 {
+  background-color: #e0e0e0;
+  color: #333;
+  padding: 6px 12px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: all 0.2s ease;
+  border: solid 0.1px #f5f5f5;
+}
+
+.btn-upload1:hover {
+  background-color: #c5c5c5;
+  border: 1px solid #888;
+}
+
+.table-container {
+  width: 100%;
+  max-width: 1000px;
+  border: 2px solid rgba(217, 217, 217, 0.5);
+  border-radius: 8px;
+}
+
+.table-header,
+.table-row {
+  display: flex;
+  padding: 10px 15px;
+}
+
+.table-header {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.table-row:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.table-header span,
+.table-row span {
+  padding: 5px;
+}
+
+.table-header span:nth-child(1),
+.table-row span:nth-child(1) {
+  flex: 2;
+}
+
+.table-header span:nth-child(2),
+.table-row span:nth-child(2),
+.table-header span:nth-child(3),
+.table-row span:nth-child(3) {
+  flex: 1;
+}
+
+/* Status personalizado */
+.status {
+  padding: 4px 8px;
+  border-radius: 12px;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.status.publicado {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status.pendente {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status["não publicado"],
+.status.nao-publicado {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Botão de download */
+.btn-download {
+  padding: 6px 12px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.btn-download:hover {
+  background-color: #0056b3;
+}
+
+/* Ícone circular com ponto de exclamação */
+.info-icon {
+  width: 24px;
+  height: 24px;
+  background-color: #d6eaff; /* azul claro bebê */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
